@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".timeTable">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:columnCount="6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:orientation="horizontal"
+        app:rowCount="20">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="48dp"
+            android:layout_height="17dp"
+            android:text="시간"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="월"
+            android:textSize="19sp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="화"
+            android:textSize="19sp"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="수"
+            android:textSize="19sp"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="목"
+            android:textSize="19sp"
+            app:layout_column="4"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="금"
+            android:textSize="19sp"
+            app:layout_column="5"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1교시(9:00~9:30)"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2교시(9:30~10:00)"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3교시(10:00~10:30)"
+            app:layout_column="0"
+            app:layout_row="3"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4교시(10:30~11:00)"
+            app:layout_column="0"
+            app:layout_row="4"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5교시(11:00~11:30)"
+            app:layout_column="0"
+            app:layout_row="5"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6교시(11:30~12:00)"
+            app:layout_column="0"
+            app:layout_row="6"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7교시:(12:00~12:30)"
+            app:layout_column="0"
+            app:layout_row="7"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8교시(12:30~13:00)"
+            app:layout_column="0"
+            app:layout_row="8"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9교시(13:00~13:30)"
+            app:layout_column="0"
+            app:layout_row="9"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10교시(13:30~14:00)"
+            app:layout_column="0"
+            app:layout_row="10"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11교시(14:00~14:30)"
+            app:layout_column="0"
+            app:layout_row="11"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12교시(14:30~15:00)"
+            app:layout_column="0"
+            app:layout_row="12"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13교시(15:00~15:30)"
+            app:layout_column="0"
+            app:layout_row="13"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14교시(15:30~16:00)"
+            app:layout_column="0"
+            app:layout_row="14"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15교시(16:00~16:30)"
+            app:layout_column="0"
+            app:layout_row="15"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16교시(16:30~17:00)"
+            app:layout_column="0"
+            app:layout_row="16"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18교시(17:00~17:30)"
+            app:layout_column="0"
+            app:layout_row="17"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19교시(17:30~18:00)"
+            app:layout_column="0"
+            app:layout_row="18"
+            app:layout_rowWeight="1" />
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
